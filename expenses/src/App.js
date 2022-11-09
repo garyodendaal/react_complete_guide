@@ -1,9 +1,10 @@
+import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Getting Started</h1>
-      </header>
+        <h2>Getting Started</h2>
+        <ExpenseItem></ExpenseItem>
     </div>
   );
 }
